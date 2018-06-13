@@ -1,0 +1,33 @@
+{
+  "name": "koa-server",
+  "version": "1.0.0",
+  "description": "A simple koa static server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pm2": "pm2 start index.js -name koa-server",
+    "log": "pm2 log",
+    "stop": "pm2 stop all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roojay520/koa-server.git"
+  },
+  "keywords": ["koa-server"],
+  "author": "roojay520@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roojay520/koa-server/issues"
+  },
+  "homepage": "https://github.com/roojay520/koa-server#readme",
+  "dependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-static": "^4.0.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "koa": "^2.5.1",
+    "koa-static": "^4.0.3",
+    "pm2": "^2.10.4"
+  }
+}
