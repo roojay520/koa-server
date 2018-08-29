@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "pm2": "pm2 start index.js -name koa-server",
-    "log": "pm2 log",
-    "stop": "pm2 stop all"
+    "pm2": "pm2 start index.js --name koa-server",
+    "log": "pm2 log koa-server"
   },
   "repository": {
     "type": "git",
@@ -23,13 +22,13 @@
   },
   "homepage": "https://github.com/roojay520/koa-server#readme",
   "dependencies": {
-    "@types/koa": "^2.0.46",
-    "@types/koa-static": "^4.0.0",
+    "koa": "^2.5.2",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-register": "^6.26.0",
-    "koa": "^2.5.1",
-    "koa-static": "^4.0.3",
-    "pm2": "^2.10.4"
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
   }
 }

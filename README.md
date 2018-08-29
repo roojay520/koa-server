@@ -3,6 +3,10 @@
 
 ## 使用
 
+全局安装 PM2
+
+`npm i -g pm2`
+
 `git clone https://github.com/roojay520/koa-server.git`
 
 `cd koa-server`
