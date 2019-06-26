@@ -1,4 +1,6 @@
-export const API_CONFIG = {
-  HOST: 'http://localhost',
-  PORT: 3000,
+module.exports = {
+  API_CONFIG: {
+    HOST: 'http://localhost',
+    PORT: 4399,
+  },
 };

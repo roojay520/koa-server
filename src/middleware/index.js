@@ -1,6 +1,6 @@
-import path from 'path';
-import staticFile from 'koa-static';
+const path = require('path');
+const staticFile = require('koa-static');
 
-export default (app) => {
+module.exports = (app) => {
   app.use(staticFile(path.join(__dirname, '../../public')));
 };

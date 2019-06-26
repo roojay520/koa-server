@@ -1,6 +1,6 @@
 {
   "name": "koa-server",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple koa static server",
   "main": "index.js",
   "scripts": {
@@ -22,13 +22,8 @@
   },
   "homepage": "https://github.com/roojay520/koa-server#readme",
   "dependencies": {
-    "koa": "^2.5.2",
+    "koa": "^2.7.0",
     "koa-static": "^5.0.0"
   },
-  "devDependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0"
-  }
+  "devDependencies": {}
 }
